@@ -15,7 +15,7 @@ After completing this assignment, you should be able to:
 5. Install the dependencies: `dotnet restore`
 6. Open in your editor: `code .`
 7. Start the test runner: `dotnet watch test`
-8. Open `Iterations.cs` and work on functions until tests pass.
+8. Open `Iterations.cs` and work on functions until tests pass. Once you are done with a test, to move to the next one, remove `(Skip = "Remove to run test")` from the `Fact` attribute.
 9. Commit and push your work to GitHub.
 10. Turn in the URL to your GitHub repo.
 

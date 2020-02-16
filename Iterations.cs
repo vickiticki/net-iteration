@@ -27,7 +27,7 @@ namespace DotnetIteration
    */
     public static IEnumerable<string> Yelling(List<string> words)
     {
-      return words.Select(s => s.ToUpper());
+      throw new System.NotImplementedException();
     }
 
     /* 
@@ -38,7 +38,7 @@ namespace DotnetIteration
 
     public static IEnumerable<int> Double(List<int> numbers)
     {
-      return numbers.Select(s => s * 2);
+      throw new System.NotImplementedException();
     }
     /*
       * 3) Define a function stringyIndexes() that takes an list of
@@ -47,7 +47,7 @@ namespace DotnetIteration
       */
     public static IEnumerable<string> StringyIndexes(List<string> data)
     {
-      return data.Select((s, i) => $"{s} is at index {i}");
+      throw new System.NotImplementedException();
     }
     /*
        * 4) Define a function onlyTheEvenSurvive that accepts an list of
@@ -56,7 +56,7 @@ namespace DotnetIteration
 
     public static IEnumerable<int> OnlyTheEvenSurvive(List<int> data)
     {
-      return data.Where(w => w % 2 == 0);
+      throw new System.NotImplementedException();
     }
     /*
         * 5) Define a function onlyTheEvenIndexedSurvive that accepts an list of
@@ -64,7 +64,7 @@ namespace DotnetIteration
         */
     public static IEnumerable<int> OnlyTheEvenIndexedSurvive(List<int> data)
     {
-      return data.Where((w, i) => i % 2 == 0);
+      throw new System.NotImplementedException();
     }
     /*
       * 6)  Define a function bestMoviesOfTheYear that accepts an list of
@@ -81,7 +81,7 @@ namespace DotnetIteration
       */
     public static IEnumerable<string> BestMovieOfTheYear(List<Movie> data, int year)
     {
-      return data.Where(w => w.Year == year && w.Score >= 90).Select(s => s.Name);
+      throw new System.NotImplementedException();
     }
 
     /*
@@ -92,16 +92,16 @@ namespace DotnetIteration
 
     public static bool EveryoneIsOdd(List<int> data)
     {
-      return data.All(a => a % 2 == 1);
+      throw new System.NotImplementedException();
     }
     /*
       * 8) Define a function findTheNeedle that accepts an list of
       * strings and returns the one string that contains the word
       * `needle` 
       */
-    internal static string FindTheNeedle(List<string> data)
+    public static string FindTheNeedle(List<string> data)
     {
-      return data.FirstOrDefault(f => f.Contains("needle"));
+      throw new System.NotImplementedException();
     }
 
 
@@ -113,7 +113,7 @@ namespace DotnetIteration
 
     public static int FindTheNeedleIndex(List<string> data)
     {
-      return data.FindIndex(f => f.Contains("needle"));
+      throw new System.NotImplementedException();
     }
 
     /*
@@ -125,7 +125,7 @@ namespace DotnetIteration
 
     public static bool SomeoneToLove(List<string> data)
     {
-      return data.Any(a => a.Length == 4);
+      throw new System.NotImplementedException();
     }
   }
 
