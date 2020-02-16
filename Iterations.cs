@@ -123,46 +123,10 @@ namespace DotnetIteration
       */
 
 
-    internal static bool SomeoneToLove(List<string> data)
+    public static bool SomeoneToLove(List<string> data)
     {
       return data.Any(a => a.Length == 4);
     }
-
-    /*
-     * 11) Define a function mapYourself that accepts an list of
-     * numbers and returns a new list where each number is doubled.
-     *
-     * However, you cannot use any of the list enumerables.
-     *
-     * So no using forEach, map, filter, reduce, etc.
-     */
-
-    // ...
-
-    /*
-     * 12) Define a function filterYourself that accepts an
-     * list of numbers and returns a new list containing
-     * only the even numbers.
-     *
-     * However, you cannot use any of the list enumerables.
-     *
-     * So no using forEach, map, filter, reduce, etc.
-     */
-
-    // ...
-
-    /*
-     * 13) Define a function everyYourself that accepts an
-     * list of numbers and returns true if every number
-     * in the list is even.
-     *
-     * However, you cannot use any of the list enumerables.
-     *
-     * So no using forEach, map, filter, reduce, etc.
-     */
-
-    // ...
-
   }
 
 }
