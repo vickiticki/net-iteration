@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Xunit;
 
 namespace DotnetIteration
@@ -6,9 +7,11 @@ namespace DotnetIteration
   public class TestClass
   {
     [Fact]
-    public void No_name_given()
+    public void Yelling()
     {
-      Assert.Equal("Hello", Hello.Speak());
+      var expected = new List<string> { "NOW", "IS", "THE", "BEST", "TIME" };
+      var data = new List<string> { "now", "is", "the", "best", "time" };
+      Assert.Equal(expected, Iteration.Yelling(data));
     }
 
   }
