@@ -82,9 +82,9 @@ namespace DotnetIteration
         // A movie object looks like this:
         // 
         // {
-        //   name: "Get Out",
-        //   year: "2017",
-        //   score: 99
+        //   Name: "Get Out",
+        //   Year: "2017",
+        //   Score: 99
         // }
         // 
         public static IEnumerable<string> BestMovieOfTheYear(List<Movie> data, int year)
