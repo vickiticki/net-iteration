@@ -10,17 +10,23 @@ namespace DotnetIteration
     {
         /*
            Welcome to Interation
-           Down below you will find instructions for code to write.
+
+           In each method below you will see instructions that detail the requirements
+           the method must implement to make the test pass.
+
+           To start on a method comment out, or remove, the line
+           `throw new System.NotImplementedException();`
+
            As you write and save your code, you can look in your terminal where you
-           ran `dotnet watch test` to see if your code is working. The tests continuously check
-           your work each time you save. If a test is failing you have not yet completed that method
-           Once you finish a method and have it correct, the test will tell you how
-           the next method is working.
+           ran `dotnet watch test` to see if your code is working. The tests
+           continuously check your work each time you save. If a test is failing
+           you have not yet completed that method. Once you finish a method and have
+           it correct, the test will tell you how the next method is working.
         */
 
 
         //  
-        // 1) Complete the method named `yelling` that takes an list of
+        // 1) Complete the method named `yelling` that takes a list of
         //    words as an argument and returns a new list with all
         //    the words forced to uppercase.
         //
@@ -31,7 +37,7 @@ namespace DotnetIteration
 
 
         // 
-        // 2) Complete the method named `Double` that takes an list of
+        // 2) Complete the method named `Double` that takes a list of
         //    numbers as an argument and returns a new list with all
         //    the numbers multiplied by 2.
         // 
@@ -42,95 +48,95 @@ namespace DotnetIteration
 
 
         // 
-        // 3) Complete the method `StringyIndexes` that takes an list of
+        // 3) Complete the method `StringyIndexes` that takes a list of
         //    strings as an argument and returns a new list with each
         //    string suffixed with " is at index X" where X is the index
         //    of the element.
         // 
-        public static IEnumerable<string> StringyIndexes(List<string> data)
+        public static IEnumerable<string> StringyIndexes(List<string> words)
         {
             throw new System.NotImplementedException();
         }
 
 
         // 
-        // 4) Complete the method OnlyTheEvenSurvive that accepts an list of
+        // 4) Complete the method OnlyTheEvenSurvive that accepts a list of
         //    numbers and returns only the elements that are even.
         // 
-        public static IEnumerable<int> OnlyTheEvenSurvive(List<int> data)
+        public static IEnumerable<int> OnlyTheEvenSurvive(List<int> numbers)
         {
             throw new System.NotImplementedException();
         }
 
 
         // 
-        // 5) Complete the method OnlyTheEvenIndexedSurvive that accepts an
+        // 5) Complete the method OnlyTheEvenIndexedSurvive that accepts a
         //    list of numbers and returns only the elements at indexes that
         //    are even.
         // 
-        public static IEnumerable<int> OnlyTheEvenIndexedSurvive(List<int> data)
+        public static IEnumerable<int> OnlyTheEvenIndexedSurvive(List<int> numbers)
         {
             throw new System.NotImplementedException();
         }
 
 
         // 
-        // 6) Complete the method BestMoviesOfTheYear that accepts an list of
+        // 6) Complete the method BestMoviesOfTheYear that accepts a list of
         //    movie objects AND a year and returns the names of movies that are
         //    from that year AND have a score more than 90.
         // 
         // A movie object looks like this:
         // 
-        // {
+        // new Movie() {
         //   Name: "Get Out",
         //   Year: "2017",
         //   Score: 99
         // }
         // 
-        public static IEnumerable<string> BestMovieOfTheYear(List<Movie> data, int year)
+        public static IEnumerable<string> BestMovieOfTheYear(List<Movie> movies, int yearToMatch)
         {
             throw new System.NotImplementedException();
         }
 
 
         // 
-        // 7) Complete the method EveryoneIsOdd that accepts an list of
+        // 7) Complete the method EveryoneIsOdd that accepts a list of
         //    numbers and returns true if every element of the list is odd.
         // 
-        public static bool EveryoneIsOdd(List<int> data)
+        public static bool EveryoneIsOdd(List<int> numbers)
         {
             throw new System.NotImplementedException();
         }
 
 
         // 
-        // 8) Complete the method FindTheNeedle that accepts an list of
+        // 8) Complete the method FindTheNeedle that accepts a list of
         //    strings and returns the one string that contains the word
         //    `needle`.
         // 
-        public static string FindTheNeedle(List<string> data)
+        public static string FindTheNeedle(List<string> sentences)
         {
             throw new System.NotImplementedException();
         }
 
 
         // 
-        // 9) Complete the method FindTheNeedleIndex that accepts an list of
+        // 9) Complete the method FindTheNeedleIndex that accepts a list of
         //    strings and returns the index of the string that contains
         //    the word `needle` inside.
         // 
-        public static int FindTheNeedleIndex(List<string> data)
+        public static int FindTheNeedleIndex(List<string> sentences)
         {
             throw new System.NotImplementedException();
         }
 
 
         // 
-        // 10) Complete the method SomeoneToLove that accepts an list of
+        // 10) Complete the method SomeoneToLove that accepts a list of
         //     strings and returns true if at least one string is exactly
         //     four characters long.
         // 
-        public static bool SomeoneToLove(List<string> data)
+        public static bool SomeoneToLove(List<string> words)
         {
             throw new System.NotImplementedException();
         }
