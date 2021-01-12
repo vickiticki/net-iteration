@@ -46,7 +46,7 @@ namespace DotnetIteration
 
         public static void NotImplemented(string method)
         {
-            ColoredConsole.WriteLine($"SKIPPED!  {method.PadRight(32)} Remove/comment the throw new System.NotImplementedException().".Yellow());
+            ColoredConsole.WriteLine($"SKIPPED!  {method.PadRight(32)} Remove/comment the throw new System.NotImplementedException(). Replace that line with your own code.".Yellow());
         }
 
         public static void CompareLists<T>(IEnumerable<T> expected, IEnumerable<T> actual, string method)
