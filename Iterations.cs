@@ -121,16 +121,9 @@ namespace DotnetIteration
         public static bool EveryoneIsOdd(List<int> numbers)
         {
             // throw new System.NotImplementedException();
-            var totalNumberCount = numbers.Count;
-            var oddNumberCount = numbers.Count(number => number % 2 == 1);
-            if (totalNumberCount == oddNumberCount)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+
+            var allAreOdd = numbers.All(number => number % 2 == 1);
+            return allAreOdd;
 
         }
 
